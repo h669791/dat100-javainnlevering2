@@ -115,16 +115,6 @@ public class Tabeller {
 		return rTab;
 	}
 
-	/*
-	 * 
-	 * int [] nyeTall = new int[tabell.length]; for ( int tallNr = 0;
-	 * tallNr<tabell.length; tallNr++) { int minPos = 0; for(int posNr = 1;
-	 * posNr<tabell.length; posNr++) { if(tabell[posNr] < tabell[minPos]) minPos =
-	 * posNr; } nyeTall[tallNr] = tabell[minPos];
-	 * 
-	 * tabell[minPos] = Integer.MAX_VALUE; } tabell = nyeTall;
-	 */
-
 	// g)
 	public static boolean erSortert(int[] tabell) {
 
